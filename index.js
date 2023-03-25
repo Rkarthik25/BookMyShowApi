@@ -11,7 +11,7 @@ server.use(jsonServer.bodyParser)
 server.use(middlewares)
 server.use(router)
 
-const PORT = 9090
+const PORT = 2525
 
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`)
